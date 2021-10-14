@@ -97,11 +97,11 @@ main {
 .vlag {
   height: 15px;
   width: 23px;
-  position: sticky;
+  /* position: sticky; */
   float: right;
-  top: 2.4%;
+  top: 2.3%;
   margin-right: 110%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 .ned {
   position: relative;
@@ -122,23 +122,23 @@ main {
 .profile {
   height: 18px;
   width: 23px;
-  position: sticky;
+  /* position: sticky; */
   float: right;
-  top: 2.3%;
+  top: 2%;
   margin-right: 110%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 .homebut {
   float: right;
   padding: 32px 19px;
 
-  background-color: wheat;
+  background-color: #f2f2f2;
   text-align: center;
-  right: 10%;
+  right: 0%;
   bottom: 46px;
   position: relative;
-  font-size: 14;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -146,24 +146,24 @@ main {
   float: right;
   padding: 32px 19px;
 
-  background-color: wheat;
+  background-color: #f2f2f2;
   text-align: center;
   position: relative;
-  right: 10%;
+  right: 0%;
   bottom: 46px;
-  font-size: 14;
+  font-size: 14px;
   font-weight: bold;
 }
 .faqbut {
   float: right;
   padding: 32px 19px;
 
-  background-color: wheat;
+  background-color: #f2f2f2;
   text-align: center;
   position: relative;
-  right: 10%;
+  right: 0%;
   bottom: 46px;
-  font-size: 14;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -171,23 +171,38 @@ main {
   float: right;
   padding: 32px 19px;
 
-  background-color: wheat;
+  background-color: #f2f2f2;
   text-align: center;
   position: relative;
-  right: 10%;
+  right: 0%;
   bottom: 46px;
-  font-size: 14;
+  font-size: 14px;
   font-weight: bold;
 }
 .zoek {
   padding: 14px 184px 14px 20px;
   background-color: #e1dfdf;
-  right: -5;
+  right: -5%;
   position: relative;
-  bottom: 46px;
+  bottom: 52px;
   float: right;
   font-weight: bold;
   font-size: 14px;
   color: #818080;
   transform: translate(0%, 50%);
+}
+.loep{  
+position: relative;
+float: right; 
+overflow: auto;
+left: 243%;
+
+transform: scale(2.2) translate(0%, 10%);
+width: 20px;
+height: 10px;
+}
+#mainarticle { 
+
+
+  
 }
