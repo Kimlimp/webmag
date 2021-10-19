@@ -8,16 +8,21 @@ header {
   height: 202px;
   width: 100%;
 }
-nav {
+
+.nav1 {
   height: 40px;
   width: 100%;
   background-color: #333333;
   position: fixed;
   z-index: 2;
 }
+nav {
+  list-style: none;
+}
+
 main {
   background-color: #333333;
-  height: 10000px;
+  height: 1800px;
 }
 #subnav {
   height: 162px;
@@ -127,7 +132,7 @@ main {
   float: right;
   top: 2%;
   margin-right: 110%;
-  transform: translate(-50%,-10%);
+  transform: translate(-50%, -10%);
 }
 
 .homebut {
@@ -216,8 +221,8 @@ main {
   opacity: 1;
   position: relative;
   float: left;
-font-weight: 700;
-letter-spacing: 7px;
+  font-weight: 700;
+  letter-spacing: 7px;
 }
 .yellow {
   color: #ffea00;
@@ -227,6 +232,13 @@ letter-spacing: 7px;
   color: white;
 }
 
-.maindiscription{ 
-
+.maindiscription {
+}
+.nav a { display: inline-block;
+  padding: 32px 19px;
+  background-color: #f2f2f2;
+}
+.nav li {
+  
+  display: inline;
 }
