@@ -234,11 +234,11 @@ main {
 
 .maindiscription {
 }
-.nav a { display: inline-block;
+.nav a {
+  display: inline-block;
   padding: 32px 19px;
   background-color: #f2f2f2;
 }
 .nav li {
-  
   display: inline;
 }
