@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <nav class="nav1">
+      <div class="nav1">
         <div class="ned">
           <p class="country sans">NED - NL</p>
           <img
@@ -29,9 +29,9 @@
           <p class="account sans">ACCOUNT</p>
           <img class="profile" src="assets/profile.svg" alt="profile face" />
         </div>
-      </nav>
+      </div>
       <div class="clearfix"></div>
-      <nav id="subnav">
+      <div id="subnav">
         <div class="logo">
           <h1 class="logotext">gaming grounds</h1>
         </div>
@@ -44,13 +44,15 @@
             alt="search icon"
           />
         </div>
-        <ul class="nav">
-          <li><a class="aboutbut sans center">ABOUT</a></li>
-          <li><a class="faqbut sans center">FAQ</a></li>
-          <li><a class="archivebut sans center">ARCHIVE</a></li>
-          <li><a class="homebut sans center">HOME</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul class="nav">
+            <li><a class="aboutbut sans center">ABOUT</a></li>
+            <li><a class="faqbut sans center">FAQ</a></li>
+            <li><a class="archivebut sans center">ARCHIVE</a></li>
+            <li><a class="homebut sans center">HOME</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="placehold">
@@ -62,11 +64,23 @@
             </h1>
           </div>
         </div>
-        <div class="maindiscription"></div>
+        <div class="maindiscription">
+          <p class="sans maintext1 bold">
+            “The enemy of art is the absence of limitations.”
+          </p>
+          <p class="maintext2 sans bold">Orson Welles</p>
+          <p class="atkinson italic maintext3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat
+            molestie vehicula. Ut convallis gravida nunc vitae mollis. In
+            interdum suscipit vehicula. Aliquam vel suscipit magna, sit amet
+            tristique turpis. Suspendisse vel ullamcorper neque, sed tempor
+            tortor. Etiam nulla sem, vulputate ac elementum vitae, ullamcorper
+            vel massa.
+          </p>
+        </div>
       </div>
 
       <div class="darken"></div>
-      
     </main>
     <footer></footer>
   </body>
