@@ -7,7 +7,7 @@ header {
   width: 100%;
 }
 body {
-  min-width: 1366px;
+  min-width: 1200px;
 }
 .nav1 {
   height: 40px;
@@ -97,7 +97,7 @@ main {
 }
 .ned {
   position: relative;
-  width: fit-content;
+  /* width: fit-content; */
   float: right;
   height: 40px;
   right: 10%;
@@ -147,8 +147,10 @@ main {
   top: 35%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: fit-content;
+  /* width: fit-content; */
+  /* width: 916px; */
   padding-right: 20px;
+  margin: auto;
 }
 #mainarticle {
   z-index: 1;
@@ -186,10 +188,10 @@ a {
   width: 847px;
   height: 200px;
   background-color: #f2f2f2;
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 33%;
+  bottom: -40px;
   z-index: 4;
   border-radius: 3px;
   padding-top: 36px;
@@ -260,14 +262,14 @@ li a:hover {
 .articlelong {
   background-color: red;
   height: 800px;
-  width: 100px;
+  width: 338px;
   float: left;
   opacity: 0.3;
 }
 .articlesmallholder {
   background-color: greenyellow;
   height: 400px;
-  width: 763px;
+  width: 764px;
   float: left;
   opacity: 0.3;
 }
@@ -281,6 +283,23 @@ li a:hover {
 .colom2 {
   width: 763px;
   height: 800px;
-  float: left;
+  float: right;
   background-color: orange;
+}
+.articlesmall {
+  height: 400px;
+  width: 382px;
+  float: left;
+}
+.artimglong {
+  height: 532px;
+  width: 338px;
+}
+.artimgsmall {
+  height: 271px;
+  width: 341px;
+}
+.artimgwide {
+  height: 350px;
+  width: 540px;
 }
