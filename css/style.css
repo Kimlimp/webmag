@@ -286,10 +286,15 @@ li a:hover {
   float: right;
   background-color: orange;
 }
-.articlesmall {
+.articlesmall1 {
   height: 400px;
-  width: 382px;
+  width: 341px;
   float: left;
+}
+.articlesmall2 {
+  height: 400px;
+  width: 341px;
+  float: right;
 }
 .artimglong {
   height: 532px;
