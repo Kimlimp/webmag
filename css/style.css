@@ -1,7 +1,5 @@
-.clearfix::after {
-  content: "";
+.clearfix {
   clear: both;
-  display: table;
 }
 header {
   background-color: white;
@@ -9,7 +7,7 @@ header {
   width: 100%;
 }
 body {
-  min-width: 980px;
+  min-width: 1366px;
 }
 .nav1 {
   height: 40px;
@@ -231,6 +229,7 @@ a {
   background-color: #333333;
   width: 100%;
   height: 1000px;
+  padding-top: 100px;
   /* position: relative; */
 }
 .intro {
@@ -250,4 +249,38 @@ a {
 }
 li a:hover {
   background-color: #ffffa1;
+}
+.articles {
+  width: 1190px;
+
+  background-color: rebeccapurple;
+
+  margin: auto;
+}
+.articlelong {
+  background-color: red;
+  height: 800px;
+  width: 100px;
+  float: left;
+  opacity: 0.3;
+}
+.articlesmallholder {
+  background-color: greenyellow;
+  height: 400px;
+  width: 763px;
+  float: left;
+  opacity: 0.3;
+}
+.articlewide {
+  background-color: blue;
+  height: 400px;
+  width: 763px;
+  float: left;
+  opacity: 0.3;
+}
+.colom2 {
+  width: 763px;
+  height: 800px;
+  float: left;
+  background-color: orange;
 }
